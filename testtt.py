@@ -1,3 +1,6 @@
-for i in range(1, 11):
-    print(2,"*",i, "=", 2 * i)
+a, b = map(int,input().split())
+if a > b:
+    print(a)
+else:
+    print(b)
 
