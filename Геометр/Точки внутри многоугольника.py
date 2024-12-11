@@ -20,7 +20,7 @@ def point_inside_polygon(point, polygon):
 
         if (x - x1) * (y2 - y1) == (y - y1) * (x2 - x1):
             if (min(x1, x2) <= x and max(x1, x2) >= x) and (min(y1, y2) <= y and max(y1, y2) >= y):
-                return "YES"
+                r
 
         if (y1 > y) != (y2 > y):
             intersect_x = (y - y1) / (y2 - y1) * (x2 - x1) + x1
